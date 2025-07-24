@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff8f2;
+  padding: 30px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+textarea, select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#output {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  background: #fef3c7;
+  padding: 15px;
+  border-radius: 8px;
+}
